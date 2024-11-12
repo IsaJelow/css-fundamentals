@@ -1,0 +1,94 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* Estilo del header */
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #c999af;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+/* Estilo de las columnas */
+.cv-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo de la imagen de perfil */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+
+/* Columna izquierda */
+.left-column {
+    width: 30%;
+}
+
+.left-column h2 {
+    background-color: #c999af; /* pinky */
+    color: white;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 15em;
+}
+
+.left-column p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Columna derecha */
+.right-column {
+    width: 65%;
+    
+}
+
+.right-column h2 {
+    background-color: #c999af; /* PINKY */
+    color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 15em;
+    width: 250px;
+    
+}
+
+.right-column ul {
+    list-style-type: none;
+    padding-left: 20px;
+    border-left: thick double #c999af;
+}
+
+.right-column ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
